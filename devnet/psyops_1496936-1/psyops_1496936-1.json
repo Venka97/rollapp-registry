@@ -1,0 +1,33 @@
+{
+  "chainId": "psyops_1496936-1",
+  "chainName": "psyops_1496936-1",
+  "rpc": "http://3.85.208.198:26657",
+  "rest": "http://3.85.208.198:1317",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "PSY",
+      "baseDenom": "uPSY",
+      "decimals": 18,
+      "logo": "/logos/psyops_1496936-1.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/psyops_1496936-1.png",
+  "ibc": {
+    "hubChannel": "channel-9505",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x16d768",
+    "rpc": "http://3.85.208.198:8545"
+  },
+  "type": "RollApp",
+  "da": "Avail",
+  "description": "",
+  "analytics": true
+}
